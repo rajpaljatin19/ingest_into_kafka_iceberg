@@ -1,4 +1,4 @@
-import json, pyarrow.parquet as pq, pyarrow.compute as pc, pandas as pd, pyarrow as pa, datetime, subprocess, sys, os, random, time, logging, subprocess, os, traceback, math, base64, random, string, psutil, uuid, requests, socket, argparse, os.path, re, json, datetime
+import json, pyarrow.parquet as pq, pyarrow.compute as pc, pandas as pd, pyarrow as pa, datetime, subprocess, sys, time, logging, subprocess, os, traceback, string, uuid, requests, re, json, datetime
 from pyarrow import csv
 from pyiceberg.catalog import load_catalog
 from pyiceberg.catalog.sql import SqlCatalog
@@ -7,7 +7,6 @@ from kafka import KafkaProducer
 from kafka.errors import KafkaError
 from datetime import datetime, timezone
 from time import gmtime, strftime
-from math import isnan
 from subprocess import PIPE, Popen
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
