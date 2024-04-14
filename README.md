@@ -10,9 +10,10 @@ Deploy minio locally then start it via minio command line. More information can 
 jatinrajpal@Jatins-MacBook-Air minio % minio server /Users/jatinrajpal/workspace/minio
 
 (Above command will have an output like this)
-WebUI: http://192.168.1.156:50423 http://127.0.0.1:50423  
-   RootUser: minioadmin
-   RootPass: minioadmin
+
+`WebUI: http://192.168.1.156:50423 http://127.0.0.1:50423` 
+   `RootUser: minioadmin`
+   `RootPass: minioadmin`
    
 
 ### Start Kafka ###
