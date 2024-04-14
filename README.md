@@ -37,6 +37,8 @@ Deploy Kafka and Zookeeper beforehand. More information can be taken from Kafka 
 
  `source /path/to/new/virtual/environment/venv/bin/activate`
 
+Then deploy all the required python packages which have been used in the scripts
+
 ### Pyiceberg setup ##
 
 Setting up iceberg locally using it's [documentation](https://py.iceberg.apache.org/?source=post_page-----5d642e1170ae--------------------------------#connecting-to-a-catalog)
